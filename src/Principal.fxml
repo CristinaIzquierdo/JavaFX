@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import com.jfoenix.controls.*?>
+<?import com.jfoenix.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="622.0" prefWidth="847.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginController">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="12.0" prefHeight="576.0" prefWidth="628.0" style="-fx-background-color: transparent;" AnchorPane.bottomAnchor="47.0" AnchorPane.leftAnchor="23.0" AnchorPane.rightAnchor="23.0" AnchorPane.topAnchor="47.0">
+         <children>
+            <AnchorPane layoutX="272.0" layoutY="47.0" prefHeight="536.0" prefWidth="726.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="47.0" AnchorPane.leftAnchor="272.0" AnchorPane.rightAnchor="35.0" AnchorPane.topAnchor="47.0">
+               <children>
+                  <Button alignment="CENTER" contentDisplay="TOP" layoutX="262.0" layoutY="171.0" mnemonicParsing="false" prefHeight="92.0" prefWidth="190.0" style="-fx-background-radius: 1em; -fx-background-color: #86A8E7" text="LISTAR CLIENTES" AnchorPane.rightAnchor="42.0" AnchorPane.topAnchor="171.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="closeButton" layoutX="238.0" layoutY="14.0" mnemonicParsing="false" onAction="#closeButtonAction" prefHeight="30.0" prefWidth="40.0" text="X" textFill="RED" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="14.0" />
+                  <Button alignment="CENTER" contentDisplay="TOP" layoutX="43.0" layoutY="171.0" mnemonicParsing="false" prefHeight="92.0" prefWidth="190.0" style="-fx-background-radius: 1em; -fx-background-color: #86A8E7" text="CREAR CLIENTES" AnchorPane.rightAnchor="261.0" AnchorPane.topAnchor="171.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="14.0" layoutY="36.0" prefHeight="434.0" prefWidth="207.0" style="-fx-background-color: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); -fx-background-radius: 1em;" AnchorPane.bottomAnchor="36.0" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="36.0">
+               <children>
+                  <VBox alignment="CENTER" layoutX="66.0" prefHeight="434.0" prefWidth="276.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <Label text="JAVAFX" textAlignment="CENTER">
+                           <font>
+                              <Font size="28.0" />
+                           </font>
+                        </Label>
+                        <Label text="Cristina Izquierdo Gallego" textAlignment="CENTER">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="47.0" prefWidth="57.0" text="DI 2ºDAM" textAlignment="CENTER" />
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
